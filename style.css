@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+background: wheat;
+}
+
+
+header{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    width:100%;
+}
+
+.content{
+    margin: 0 auto;
+    width:40%;
+    border-radius: 10px;
+    padding: 1.3em;
+    background: #fff;
+}
+
+.container img {
+    width: 100%;
+    max-height:200px;
+    border-radius: 10px;
+}
+
+.hero{
+    padding-top: .6em;
+}
+
+.hero p{
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.preparation{
+    background-color:#fa80723b;
+    border-radius: 10px;
+    padding: 1em 1.4em;
+    margin-top: .8em;
+    width:100%;
+}
+
+.preparation ul,.instructions ol{
+    padding: .5em 1.3em;
+}
+
+.preparation ul li,.ingredients ul li,.instructions ol li{
+    line-height: 1.7em;
+}
+
+.preparation h2,.ingredients h2,.instructions h2,.nutrition h2{
+    color: #ff4400ac;
+    padding: .3em;
+}
+
+.ingredients{
+    padding: 1em;
+    margin-top:.8em;
+    width:100%;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+.nutrition table tr{
+    border-bottom: 1px solid #ccc;
+    padding: 3em;
+}
+
+.nutrition table tr:nth-child(4){
+    border-bottom:none;
+}
+.nutrition table td{
+    padding: .6em;
+}
+
+#gram{
+    color: #832506f0;
+}
+
+/* responsiveness */
+
+ @media screen and (max-width: 768px) {
+    .content{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+   .content img{
+    border-radius:0;
+    padding: 0;
+   }
+    
+}
+
+@media screen and (max-width: 376px) {
+    .content{
+        width: 100%;
+    }
+     
+ } 
